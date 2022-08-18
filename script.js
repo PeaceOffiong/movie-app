@@ -49,7 +49,7 @@ form.addEventListener("submit", (e) => {
     e.preventDefault()
 
     const searchTerm = e.value;
-    if (searchTerm && searchTerm !== '') {
+    if (searchTerm !== '') {
         getMovies(SEARCH_URl + searchTerm)
 
         search.value =""
